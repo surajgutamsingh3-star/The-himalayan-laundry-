@@ -1,0 +1,87 @@
+{
+  "app_name": "The Himalayan Laundry",
+  "personality": "1 iOS-Native Clean",
+  "personality_one_liner": "A pristine, high-end iOS-native experience focusing on crisp typography, generous whitespace, and a deep pine-green accent to evoke the freshness of the Himalayas.",
+  "color": {
+    "surface": "#FFFFFF",
+    "onSurface": "#11181C",
+    "surfaceSecondary": "#F5F5F7",
+    "onSurfaceSecondary": "#687076",
+    "surfaceTertiary": "#EAEAEB",
+    "onSurfaceTertiary": "#889096",
+    "surfaceInverse": "#11181C",
+    "onSurfaceInverse": "#FFFFFF",
+    "brand": "#2A5A4A",
+    "brandPrimary": "#2A5A4A",
+    "onBrandPrimary": "#FFFFFF",
+    "brandSecondary": "#3E7461",
+    "onBrandSecondary": "#FFFFFF",
+    "brandTertiary": "#E6EFEA",
+    "onBrandTertiary": "#2A5A4A",
+    "success": "#2D7A4A",
+    "onSuccess": "#FFFFFF",
+    "warning": "#B56D00",
+    "onWarning": "#FFFFFF",
+    "error": "#C73E3E",
+    "onError": "#FFFFFF",
+    "info": "#4A6C70",
+    "onInfo": "#FFFFFF",
+    "border": "#E6E8EB",
+    "borderStrong": "#C1C8CD",
+    "divider": "#F0F2F4"
+  },
+  "typography": {
+    "displayFontFamily": "Plus Jakarta Sans",
+    "textFontFamily": "Plus Jakarta Sans",
+    "scale": {
+      "sm": 12,
+      "base": 14,
+      "lg": 16,
+      "xl": 20,
+      "2xl": 24
+    }
+  },
+  "spacing": {
+    "rule": "Generous iOS-native padding. Cards never flush to screen edges; minimum 16px horizontal margins. Minimum 56pt tappable height for lists. Use 2-col grids with wrap and space-between for categories.",
+    "xs": 4,
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "xl": 24,
+    "2xl": 32,
+    "3xl": 48
+  },
+  "radius_tokens": {
+    "sm": 6,
+    "md": 12,
+    "lg": 20,
+    "pill": 999
+  },
+  "shadow_tier": "1",
+  "navigation": "bottom_tabs",
+  "icon_set": "Feather",
+  "glassmorphism": {
+    "enabled": "true",
+    "do's": [
+      "Use blur on bottom tab bar",
+      "Use frosted glass header in Service Detail and Cart when content scrolls beneath",
+      "Hero card text background to ensure readability"
+    ],
+    "dont's": [
+      "No blur on form fields or standard list rows",
+      "Do not overdo blur; max 2 blur surfaces per screen"
+    ]
+  },
+  "platform_libraries": {
+    "glass": {
+      "ios": "expo-glass-effect",
+      "android": "expo-blur",
+      "low_end_android_fallback": "solid surfaceSecondary"
+    },
+    "image": "expo-image",
+    "blur": "expo-blur",
+    "bottom_sheet": "@gorhom/bottom-sheet",
+    "animation": "react-native-reanimated",
+    "gesture": "react-native-gesture-handler"
+  }
+}
